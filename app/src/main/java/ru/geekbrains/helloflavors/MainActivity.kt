@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.textView.text = BuildConfig.MY_BUILD_TYPE
+        binding.textView.text = getString(R.string.greeting)
     }
 }
